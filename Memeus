@@ -1237,7 +1237,7 @@ function Flight() --wowthatsdiffrent
 	Trail.Enabled = false
 	ragdoll(char)
 	wait(1)
-	Character.Head.face.Texture = "rbxassetid://249062487"
+	Character.Head.face.Texture = "rbxassetid://1077385745"
 	CreateSound("948494432", hed, 10, 1)
 	wait(2)
 	Character.Head.face.Texture = "rbxassetid://269748407"
@@ -1246,6 +1246,7 @@ function Flight() --wowthatsdiffrent
 	Character.Head.face.Texture = "rbxassetid://494811799"
 	STHAP:play()
 	wait(11)
+    STHAP:stop()
 	forevergone:play()
 end
 
