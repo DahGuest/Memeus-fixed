@@ -1039,8 +1039,6 @@ Cause_Im_having_a_good_time_having_a_good_time.TimePosition = 35.3
 writefile("dog.ogg", game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/main/memeus%20loud%20crack%20noise%20dog%20happy%20blah%20blah.ogg"))
 
 local dogcry = getcustomasset("dog.ogg")
-dogcry.Volume = 10
-dogcry.Looped = false
 STHAP = Instance.new("Sound", hed)
 STHAP.SoundId = "http://www.roblox.com/asset/?id=1591656314"
 STHAP.Volume = 10
