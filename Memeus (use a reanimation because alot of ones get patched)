@@ -1036,7 +1036,11 @@ Cause_Im_having_a_good_time_having_a_good_time.Volume = 10
 Cause_Im_having_a_good_time_having_a_good_time.Pitch = 1
 Cause_Im_having_a_good_time_having_a_good_time.Looped = false
 Cause_Im_having_a_good_time_having_a_good_time.TimePosition = 35.3
+writefile("dog.ogg", game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/main/memeus%20loud%20crack%20noise%20dog%20happy%20blah%20blah.ogg"))
 
+local dogcry = getcustomasset("dog.ogg")
+dogcry.Volume = 10
+dogcry.Looped = false
 STHAP = Instance.new("Sound", hed)
 STHAP.SoundId = "http://www.roblox.com/asset/?id=1591656314"
 STHAP.Volume = 10
@@ -2456,7 +2460,7 @@ function kyu_will_break_your_neck_asdf_longest_function_name_ever_xd()
 	Character.Head.face.Texture = "rbxassetid://30128383"
 	hum.MaxHealth = 0
 	ragdoll(char)
-	CreateSound("534269232", hed, 5, 1)
+	dogcry:Play()
 	error("Seems like you just died.")
 end
 
