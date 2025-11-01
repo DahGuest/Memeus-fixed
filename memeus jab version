@@ -2,7 +2,8 @@
 
 FELOADLIBRARY = {}
 loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
-
+Bypass = "death"
+loadstring(game:GetObjects("rbxassetid://5325226148")[1].Source)()
 -----------------------
 --MemeusV2--
 -------------------------------------------------------
@@ -32,7 +33,7 @@ local FavIDs = {
 --The reality of my life isn't real but a Universe -makhail07
 wait()
 local Player = game.Players.localPlayer
-local Character = Player.Character
+local Character = workspace.non
 local plr = game:service'Players'.LocalPlayer
 local Humanoid = Character.Humanoid
 local char = plr.Character
@@ -66,8 +67,6 @@ warn ("Also, the original MemeusV2 was made by makhail07.")
 warn ("This edit was made by me, 2003boobear.")
 --This is one of my best edits BY FAR, though.
 Character.Head.face.Texture = "rbxassetid://620619801"
-Character.Head.face.Transparency = 0
-workspace:FindFirstChild(Player.Name).Head.face.Transparency = 1
 -------------------------------------------------------
 --Start Good Stuff--
 -------------------------------------------------------
