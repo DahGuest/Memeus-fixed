@@ -253,7 +253,7 @@ LIT.Size = NumberSequence.new(nani)
 LIT.Rate = 0
 LIT.LockedToPart = false
 LIT.LightEmission = 0
-LIT.Texture = "rbxassetid://1492670151"
+LIT.Texture = "rbxassetid://4613729505"
 LIT.Color = ColorSequence.new(BrickColor.new("Institutional white").Color)
 
 local toast = Instance.new('ParticleEmitter', tors)
@@ -1100,7 +1100,7 @@ dogcry.Volume = 10
 dogcry.Pitch = 1
 dogcry.Looped = false
 STHAP = Instance.new("Sound", hed)
-STHAP.SoundId = "http://www.roblox.com/asset/?id=1591656314"
+STHAP.SoundId = "http://www.roblox.com/asset/?id=2951014430"
 STHAP.Volume = 10
 STHAP.Pitch = 1
 STHAP.Looped = false
