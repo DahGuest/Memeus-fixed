@@ -44,8 +44,8 @@ settings["Names to exclude from transparency"] = {
 }
 --// Settings end
 
---loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/CurrentAngleV4/refs/heads/main/v4.lua"))()
-loadstring(game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/refs/heads/main/reanimate"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/CurrentAngleV4/refs/heads/main/v4.lua"))()
+--loadstring(game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/refs/heads/main/reanimate"))()
 
 
 
@@ -84,7 +84,7 @@ local FavIDs = {
 --The reality of my life isn't real but a Universe -makhail07
 wait()
 local Player = game.Players.localPlayer
-local Character = workspace.non
+local Character = Player.Character
 local plr = game:service'Players'.LocalPlayer
 local Humanoid = Character.Humanoid
 local char = plr.Character
@@ -117,7 +117,8 @@ warn ("Also, the original MemeusV2 was made by makhail07.")
 --Support makhail07 for making the original!
 warn ("This edit was made by me, 2003boobear.")
 --This is one of my best edits BY FAR, though.
-Character.Head.face.Texture = "rbxassetid://620619801"
+local face = workspace:FindFirstChild(game.Players.LocalPlayer.Name.Head.face)
+face.Texture = "rbxassetid://620619801"
 
 -------------------------------------------------------
 --Start Good Stuff--
