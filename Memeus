@@ -1092,8 +1092,7 @@ Cause_Im_having_a_good_time_having_a_good_time.Pitch = 1
 Cause_Im_having_a_good_time_having_a_good_time.Looped = false
 Cause_Im_having_a_good_time_having_a_good_time.TimePosition = 35.3
 writefile("dog.ogg", game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/main/memeus%20loud%20crack%20noise%20dog%20happy%20blah%20blah.ogg"))
-
-
+writefile("forevergone.ogg", game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/main/Sayo-Nara.mp3"))
 local dogcry = Instance.new("Sound", hed)
 dogcry.SoundId = getcustomasset("dog.ogg")
 dogcry.Volume = 10
@@ -1106,7 +1105,7 @@ STHAP.Pitch = 1
 STHAP.Looped = false
 
 forevergone = Instance.new("Sound", tors)
-forevergone.SoundId = "http://www.roblox.com/asset/?id=1286436928"
+forevergone.SoundId = getcustomasset("forevergone.ogg")
 forevergone.Volume = 10
 forevergone.Pitch = 1
 forevergone.Looped = true
