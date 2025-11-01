@@ -84,7 +84,7 @@ local FavIDs = {
 --The reality of my life isn't real but a Universe -makhail07
 wait()
 local Player = game.Players.localPlayer
-local Character = workspace[Player.Character.Name .. "_Fake"]
+local Character = workspace(Player.Character.Name .. "_Fake")
 local plr = game:service'Players'.LocalPlayer
 local Humanoid = Character.Humanoid
 local char = plr.Character
