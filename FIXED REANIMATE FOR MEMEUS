@@ -216,7 +216,7 @@ end
 --// WHITELISTED BELOW
 --//New Games That I Tested Newmrbot//--
 if supportedplace and newgamesandwhitelisted[supportedplaceid] then
-	loadstr(game:HttpGet("loadstring(game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/refs/heads/main/reanimate"))()"))
+	loadstring(game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/refs/heads/main/reanimate"))()
 	return
 end
 
