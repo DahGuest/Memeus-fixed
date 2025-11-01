@@ -1059,7 +1059,7 @@ end
 -------------------------------------------------------
 
 chargeup = Instance.new("Sound", hed)
-chargeup.SoundId = "http://www.roblox.com/asset/?id=527276541"
+chargeup.SoundId = "http://www.roblox.com/asset/?id=98441318"
 chargeup.Volume = 10
 chargeup.Pitch = 1
 chargeup.Looped = true
@@ -1924,7 +1924,7 @@ function HAAAAA() --KONO POWA
 		LW.C0 = clerp(LW.C0, CF(-1.4, 0.0000000005 + 0.05 * Sin(sine / 30), 0.025 * Cos(sine / 20)) * angles(Rad(150), Rad(0), Rad(-0)), 0.1)
 	end
 	chargeup:stop()
-	CreateSound("681582832", hed, 10, 1)
+	CreateSound("17755696142", hed, 10, 1)
 	game.Players.LocalPlayer.Character:BreakJoints()
 	local S = Instance.new("Explosion",workspace)    
 	S.Position = tors.Position
