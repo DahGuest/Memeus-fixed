@@ -34,8 +34,8 @@ local function LoadUi(seconds)
 	-- Version: 3.2
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-   	 	Title = "Limb Reanimate",
-    	Text = "Loading in " .. game.Players.RespawnTime,
+   	 	Title = "Memeus V2.5 Fixed",
+    	Text = "Loading in " .. game.Players.RespawnTime .. " Seconds",
     	Duration = 15
 	})
 
