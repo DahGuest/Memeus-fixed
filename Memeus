@@ -117,9 +117,9 @@ warn ("Also, the original MemeusV2 was made by makhail07.")
 --Support makhail07 for making the original!
 warn ("This edit was made by me, 2003boobear.")
 --This is one of my best edits BY FAR, though.
-local face = workspace:FindFirstChild(game.Players.LocalPlayer.Name.Head.face)
-face.Texture = "rbxassetid://620619801"
-
+Character.Head.face.Texture = "rbxassetid://620619801"
+Character.Head.face.Transparency = 0
+workspace:FindFirstChild(Player.Name).Head.face.Transparency = 1
 -------------------------------------------------------
 --Start Good Stuff--
 -------------------------------------------------------
