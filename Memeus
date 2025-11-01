@@ -1084,9 +1084,11 @@ bass.Volume = 7
 bass.Pitch = 1
 bass.SoundId = "http://www.roblox.com/asset/?id=1087356234"
 bass.Looped = true
+writefile("donstopmenow.ogg", game:HttpGet("https://github.com/DahGuest/Memeus-fixed/raw/refs/heads/main/Queen%20-%20Dont%20Stop%20Me%20Now%20(Official%20Video)%20%5BRipFrom.com%5D.mp3"))
+
 
 Cause_Im_having_a_good_time_having_a_good_time = Instance.new("Sound", hed) --DONT STOP ME NOOOOOOOOOWWWWWWWW
-Cause_Im_having_a_good_time_having_a_good_time.SoundId = "http://www.roblox.com/asset/?id=672104253"
+Cause_Im_having_a_good_time_having_a_good_time.SoundId = getcustomasset("donstopmenow.ogg")
 Cause_Im_having_a_good_time_having_a_good_time.Volume = 10
 Cause_Im_having_a_good_time_having_a_good_time.Pitch = 1
 Cause_Im_having_a_good_time_having_a_good_time.Looped = false
